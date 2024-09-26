@@ -1,0 +1,618 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav li{
+    display: inline-block;
+    padding: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav li a{
+    font-style: none;
+    text-decoration: none;
+    color: rgb(0, 45, 248);
+    transition: 0.3s ease;
+}
+
+nav li a:hover{
+    color: white;
+    transition: 0.3s ease;
+}
+
+nav li .active{
+    color: rgb(255, 0, 43);
+    transition: 0.3s ease;
+}
+
+nav li .active:hover{
+    color: rgb(156, 8, 35);
+    transform: 0.3s ease;
+}
+
+.logo{
+    margin-left: 40px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 700;
+    text-shadow: 0 0 10px white;
+    transition: 0.3s ease;
+}
+
+.logo:hover{
+    scale: 1.1;
+    transition: 0.3s ease;
+    border: solid 1px;
+    background-color: white;
+}
+
+.i-heading{
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+.i-heading i{
+    margin-right: 15px;
+}
+
+header{
+    background: linear-gradient(rgb(103, 180, 190), rgb(179, 158, 170), rgb(158, 228, 117));
+    border-radius: 10px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 12vh;
+    transition: 0.3s ease-in;
+}
+
+header:hover{
+    height: 13vh;
+    transition: 0.5s ease;
+    background: linear-gradient(rgb(113, 184, 113), rgb(179, 161, 124), rgb(88, 158, 161));
+}
+
+.nav-bold li{
+    transition: 0.3s ease-in;
+}
+
+.nav-bold li:hover{
+    font-size: 25px;
+    transition: 0.1s ease;
+}
+
+.img-first{
+    background: url(16be05d672b4da505d38cad34b1e2ddf.jpg);
+    height: 89vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    float: inline-start;
+    margin-top: 67px;
+}
+
+.first-writing{
+    color: white;
+    margin-top:280px;
+    margin-left: 40px;
+}
+
+.first-writing h1{
+    font-size: 70px;
+    color: rgb(17, 211, 245);
+    text-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+.first-writing h4{
+    color: rgb(39, 221, 100);
+    font-size: 25px;
+    margin-left: 10px;
+    text-shadow: 0 0 20px rgb(24, 20, 20);
+}
+
+.container-three{
+    background-color: white;
+    height: 188vh;
+}
+
+.container-three h1{
+    font-size: 35px;
+    float: inline-end;
+    margin-right: 450px;
+    margin-top: 35px;
+    text-shadow: 0 0 2px rgb(7, 255, 19);
+}
+
+.container-three span{
+    color: rgb(252, 65, 65);
+}
+
+.three-detals{
+    float: inline-end;
+    margin-top: 180px;
+    margin-left: 40px;
+}
+
+.three-detals .active{
+    color: rgb(252, 65, 65);
+    cursor: pointer;
+}
+
+.three-detals span{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(80, 77, 77);
+    transition: 0.3s ease-in;
+}
+
+.three-detals span:hover{
+    color: rgb(252, 65, 65);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.three-img img{
+    margin-left: 200px;
+    margin-top: -230px;
+    height: 60vh;
+    box-shadow: 0 0 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.3s ease-in;
+}
+
+.three-img img:hover{
+    border-radius: 20px;
+    transform: translateY(6px);
+    scale: 1.1;
+    box-shadow: 0 0 20px green;
+    transition: 0.3s ease;
+}
+
+.three-good-section{
+    margin-left: 860px;
+    margin-right: 40px;
+    margin-top: -375px;
+    font-size: 22px;
+}
+
+.three-good-section p{
+    margin-top: 15px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 1;
+    color: rgb(80, 77, 77);
+}
+
+.three-good-section span{
+    text-transform: uppercase;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+.containe-four{
+    height: 88vh;
+}
+
+.containe-four .retail-site{
+    float: inline-end;
+    margin-right: 60px;
+    margin-top: 180px;
+}
+
+.containe-four .retail-site h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.retail-site h1 span{
+    color: rgb(252, 65, 65);
+}
+
+.retail-site p{
+    margin-bottom: 15px;
+    color: rgb(92, 92, 92);
+    letter-spacing: 1.1;
+    line-height: 1;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.retail-site span{
+    text-transform: uppercase;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.retail-site span:hover{
+    color: rgb(252, 65, 65);
+    transition: 0.3s ease;
+}
+
+.four-image img{
+    height: 60vh;
+    margin-top: 100px;
+    margin-left: 60px;
+    border-radius: 10px;
+    box-shadow: 0 0 16px black;
+    transition: 0.3s ease-in;
+}
+
+.four-image img:hover{
+    scale: 1.1;
+    border: 20px;
+    box-shadow: 0 0 20px green;
+    transition: 0.3s ease;
+}
+
+.containe-five{
+    height: 88vh;
+}
+
+.containe-five h1{
+    font-size: 40px;
+    float: inline-end;
+    margin-right: 500px;
+    margin-top: 6px;
+}
+
+.product-group{
+    margin-top: 25px;
+    display: inline-block;
+}
+
+.product-group .main-group{
+    display: inline-block;
+    height: 359px;
+    width: 330px;
+    border: 2px solid gray;
+    margin-left: 85px;
+    box-shadow: 0 0 8px;
+    border-radius: 12px;
+    transition: 0.3s ease-in;
+}
+
+.product-group .main-group:hover{
+    scale: 1.1;
+    box-shadow: 0 0 12px rgb(0, 225, 255);
+    border-radius: 13px;
+    transition: 0.3s ease;
+}
+
+.main-group .one-img{
+    background-image: url(05.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 58vh;
+    border-radius: 10px;
+}
+
+.main-group .two-img{
+    background-image: url(06.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 58vh;
+    border-radius: 10px;
+}
+
+.main-group .three-img{
+    background-image: url(08.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 58vh;
+    border-radius: 10px;
+}
+
+.one-img .one-box{
+    height: 19px;
+    width: 90px;
+    border: 1px solid black;
+    background-color: white;
+    margin-left: 15px;
+    margin-top: 10px;
+    border: transparent;
+    float: inline-start;
+    border-radius: 5px;
+}
+
+.one-box span{
+    margin-left: 4px;
+    color: rgb(92, 92, 92);
+}
+
+.one-img i{
+    float: right;
+    margin-right: 15px;
+    margin-top: 10px;
+    color: rgb(216, 57, 155);
+    transition: 0.3s ease-in;
+}
+
+.one-img i:hover{
+    color: red;
+    transform: scale(1.5);
+    transition: 0.3s ease;
+}
+
+.two-img .two-box{
+    height: 19px;
+    width: 90px;
+    border: 1px solid black;
+    background-color: white;
+    margin-left: 15px;
+    margin-top: 10px;
+    border: transparent;
+    float: inline-start;
+    border-radius: 5px;
+}
+
+.two-box span{
+    margin-left: 4px;
+    color: rgb(92, 92, 92);
+}
+
+.two-img i{
+    float: right;
+    margin-right: 15px;
+    margin-top: 10px;
+    color: rgb(216, 57, 155);
+    transition: 0.3s ease-in;
+}
+
+.two-img i:hover{
+    color: red;
+    transform: scale(1.5);
+    transition: 0.3s ease;
+}
+
+.three-img .three-box{
+    height: 19px;
+    width: 90px;
+    border: 1px solid black;
+    background-color: white;
+    margin-left: 15px;
+    margin-top: 10px;
+    border: transparent;
+    float: inline-start;
+    border-radius: 5px;
+}
+
+.three-box span{
+    margin-left: 4px;
+    color: rgb(92, 92, 92);
+}
+
+.three-img i{
+    float: right;
+    margin-right: 15px;
+    margin-top: 10px;
+    color: rgb(216, 57, 155);
+    transition: 0.3s ease-in;
+}
+
+.three-img i:hover{
+    color: red;
+    transform: scale(1.5);
+    transition: 0.3s ease;
+}
+
+.one-writing{
+    margin-top: -20px;
+}
+
+.one-writing h2{
+    margin-left: 10px;
+}
+
+.one-writing p{
+    color: rgb(92, 92, 92);
+    margin-left: 10px;
+}
+
+.one-icon i{
+    margin-left: 280px;
+    margin-top: 20px;
+}
+
+.containe-six{
+    height: 20vh;
+}
+
+.containe-six h3{
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(43, 41, 41);
+}
+
+.hypen1{
+    border: 1px solid;
+    margin-top: 5px;
+    margin-left: 590px;
+    margin-right: 590px;
+    color: rgb(92, 92, 92);
+}
+
+.container-seven{
+    height: 45vh;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.container-seven .little-fashion-one{
+    color: white;
+    float: inline-start;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+.little-fashion-one h1{
+    display: inline-block;
+}
+
+.little-fashion-one span{
+    margin-left: 4px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.little-fashion-one h1{
+    margin-top: 0px;
+    font-size: 30px;
+    color: rgb(92, 92, 92);
+    transition: 0.3s ease-in;
+}
+
+.little-fashion-one h1:hover{
+    color: rgb(219, 64, 64);
+    font-size: 32px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.little-fashion-one h3{
+    display: inline-block;
+}
+
+.little-fashion-one h3{
+    margin-top: 30px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.little-fashion-one h4{
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.little-fashion-two{
+    color: white;
+    float: inline-start;
+    margin-left: 180px;
+    margin-top: 60px;
+}
+
+.little-fashion-two h1{
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.little-fashion-two h3{
+    margin-top: 10px;
+    font-weight: 100;
+    color: rgb(92, 92, 92);
+    transition: 0.4s ease-in;
+}
+
+.little-fashion-two h3:hover{
+    color: white;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.little-fashion-three {
+    color: white;
+    float: inline-start;
+    margin-top: 100px;
+    margin-left: 190px;
+    color: rgb(92, 92, 92);
+}
+
+.little-fashion-three h3{
+    transition: 0.4s ease-in;
+}
+
+.little-fashion-three h3:hover{
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.little-fashion-four{
+    color: white;
+    float: inline-start;
+    margin-top: 60px;
+    margin-left: 180px;
+}
+
+.little-fashion-four i{
+    margin-top: 25px;
+    color: rgb(146, 136, 136);
+}
+
+.four-one{
+    display: inline-block;
+}
+
+.four-one i{
+    transition: 0.4s ease-in;
+    font-size: 22px;
+}
+
+.four-one i:hover{
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.four-two{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.four-two i{
+    transition: 0.4s ease-in;
+    font-size: 22px;
+}
+
+.four-two i:hover{
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.four-three{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.four-three i{
+    transition: 0.4s ease-in;
+    font-size: 22px;
+}
+
+.four-three i:hover{
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.four-four{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.four-four i{
+    transition: 0.4s ease-in;
+    font-size: 22px;
+}
+
+.four-four i:hover{
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+}

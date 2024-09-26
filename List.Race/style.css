@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color:rgb(255, 255, 255);
+}
+
+.first-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first-nav{
+    background-color: rgb(255, 239, 209);
+    height: 27px;
+    border-radius: 5px;
+}
+
+.first-nav-one h4 {
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.sec-nav-two h4 {
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 15px;
+}
+
+.sec-nav-start{
+    position: fixed;
+    top: 0;
+    margin: 0;
+    left: 0;
+    right: 0;
+    margin-top: 27px;
+}
+
+.sec-nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    background-color:rgb(236, 229, 229);
+    height: 11vh;
+    transition: 0.2s ease-in;
+    border-radius: 5px;
+}
+
+.sec-nav:hover{
+    background-color:rgb(212, 175, 175);
+    height: 13vh;
+    transition: 0.2s ease;
+}
+
+.sec-nav li{
+    display: inline-block;
+    padding: 0 20px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: blueviolet;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+
+.sec-nav li:hover{
+    color: rgb(124, 248, 207);
+    transition: 0.2s ease;
+    font-size: 22px;
+}
+
+.sec-nav a{
+    margin-top: 15px;
+    margin-left: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(33, 146, 5);
+    cursor: pointer;
+    font-size: 30px;
+    text-shadow: 0 0 6px rgb(99, 94, 143);
+    transition: 0.2s ease-in;
+}
+
+.sec-nav a:hover{
+    scale: 1.1;
+    text-shadow: 0 0 6px black;
+    transition: 0.2s ease;
+}
+
+.container-two{
+    color: white;
+}
+
+.first-img-section{
+    margin-top: 66px;
+    height: 88vh;
+    background-image: url(cityscape-kuala-lumpur-malaysia-petronas-towers-wallpaper-preview.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.first-img-in-first-writing{
+    float: inline-start;
+    text-align: center;
+    align-items: center;
+    margin-top: 140px;
+    margin-left: 250px;
+}
+
+.first-img-in-first-writing h1{
+    font-size: 45px;
+    margin-bottom: 10px;
+    text-shadow: 0 0 133px black;
+    font-weight: bolder;
+    transition: 0.3s ease-in;
+}
+
+.first-img-in-first-writing h1:hover{
+    color: rgb(0, 204, 255);
+    transition: 0.1s ease;
+    text-shadow: 0 0 10px;
+    scale: 1.1;
+}
+
+.first-img-in-first-writing h3{
+    text-shadow: 0 0 30px rgb(0, 0, 0);
+    font-size: 23px;
+    color: rgb(72, 255, 0);
+    transition: 0.3s ease;
+}
+
+.first-img-in-first-writing h3:hover{
+    transform: translateY(5px);
+    color: rgb(0, 204, 255);;
+    scale: 1.1;
+    transition: 0.3s ease;
+}
+
+.what-section{
+    float: inline-start;
+    height: 78px;
+    width: 900px;
+    border: 1px solid black;
+    background-color: white;
+    margin-top: 50PX;
+    margin-left: 140px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px yellow;
+    transition: 0.2s ease-in;
+}
+
+.what-section:hover{
+    background-color: rgb(231, 225, 225);
+    box-shadow: 0 0 10px rgb(11, 235, 104);
+    border: 1px solid rgb(0, 110, 255);
+    height: 80px;
+    width: 900px;
+    transition: 0.3s ease;
+}
+
+.what-box h2{
+    font-size: 20px;
+    color: black;
+    margin-left: 15px;
+}
+
+.what-box input{
+    margin-left: 100px;
+    font-size: 17px;
+    border: transparent;
+    cursor: pointer;
+    background-color: rgb(218, 240, 240);
+    border-bottom: 2px;
+} 
+
+.what-box i{
+    color: rgb(0, 0, 0);
+    margin-left: 350px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.locaton{
+    margin-left: 430px;
+    color: black;
+    margin-top: 20px;
+}
+
+.locaton h2{
+    font-size: 20px;
+}
+
+.locaton input{
+    margin-top: 80px;
+    margin-left: 100px;
+    font-size: 17px;
+    border: transparent;
+    cursor: pointer;
+    background-color: rgb(218, 240, 240);
+    border-bottom: 2px;
+}
+
+.locaton i{
+    margin-left: 350px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.search-box {
+    width: 170px;
+    border: 2px solid black;
+    float: right;
+    height: 78px;
+    margin-right: 100px;
+    margin-top: 50px;
+    background-color: rgb(216, 65, 78);
+    border-radius: 5px;
+    transition: 0.3s ease-in;
+}
+
+.search-box:hover{
+    border: 2px solid rgb(255, 255, 255);
+    transition: 0.3s ease;
+    background-color: rgb(231, 55, 55);
+    transform: scale(1.1);
+} 
+
+.search-writing{
+    margin-top: 22px;
+    margin-left: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.3s ease-in;
+}
+
+.search-writing a {
+    text-decoration: none;
+    color: white;
+}
+
+.search-writing:hover{
+    font-size: 22px;
+    transition: 0.3s ease;
+}
+
+.box-all .first-box{
+    float: inline-end;
+    height: 150px;
+    width: 200px;
+    border: 2px solid rgb(188, 212, 150);
+    margin-top: -22px;
+    margin-bottom: 30px;
+    background-color: white;
+    box-shadow: 0 0 5px;
+    margin-right: 55px;
+    border-radius: 5px;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+.box-all .first-box:hover{
+    background-color: rgb(216, 65, 78);
+    color: white;
+    transform: scale(1.1);
+    border: 2px solid rgb(247, 142, 5);
+    transition: 0.3s ease;
+}
+
+.first-box-writing {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.first-box-writing i{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.first-box-writing h3{
+    margin-bottom: 5px;
+    font-weight: 300;
+}
+
+.first-box-writing h3:hover{
+    font-weight: bold;
+}
+
+.container-four{
+    height: 80vh;
+}
+
+.container-four-writing{
+    margin-top: 170px;
+    text-align: center;
+}
+
+.container-four-writing h1{
+    margin-bottom: 15px;
+    font-weight: 200;
+    color: rgb(49, 45, 51);
+    text-shadow: 0 0 3px rgb(168, 143, 143);
+}
+
+.container-four-writing h3{
+    font-weight: 200;
+    color: rgb(95, 92, 97);
+    text-shadow: 0 0 3px rgb(168, 143, 143);
+}
+
+.container-four-box-start{
+    height: 350px;
+    width: 300px;
+    border: 2px solid;
+    display: inline-block;
+    margin-left: 110px;
+    margin-top: 40px;
+    box-shadow: 0 0 10px;
+    border-radius: 10px;
+    transition: 0.3s ease-in;
+    background-color: white;
+}
+
+.container-four-box-start:hover{
+    background-color: rgb(216, 65, 78);
+    color: white;
+    transition: 0.2s ease;
+    scale: 1.1;
+    border:2px solid rgb(60, 183, 255);
+    box-shadow: 0 0 10px rgb(19, 241, 104);
+}
+
+.container-four-box-start .four-text{
+    text-align: center;
+}
+
+.container-four-box-start .four-text .i-box{
+    margin-top: 50px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+}
+
+.container-four-box-start .four-text h2 {
+    margin-bottom: 20px;
+}
+
+.container-four-box-start .four-text p{
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.container-four-box-start .four-text .read-more{
+    margin-left: 90px;
+}
+
+.read-more{
+    height: 40px;
+    width: 100px;
+    border: 2px solid rgb(173, 134, 134);
+    background-color: rgb(247, 246, 245);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.read-more span{
+    float: inline-start;
+    margin-top: 7px;
+    margin-left: 8px;
+    color: rgb(216, 65, 78);
+}
+
+.i-box{
+    height: 40px;
+    width: 40px;
+    border: 2px solid rgb(173, 134, 134);
+    border-radius: 50%;
+    background-color: white;
+    color: rgb(216, 65, 78);
+}
+
+.i-box i{
+    margin-top: 10px;
+}

@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background: url(bg.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.logo{
+    margin-left: 20px;
+    color: rgb(241, 76, 54);
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.logo:hover{ 
+    transition: 0.3s ease;
+    transform: scale(1) translateY(7px);
+}
+
+.one{
+    color: white;
+}
+
+.two{
+    color: rgb(255, 3, 3);
+}
+
+.three{
+    color: rgb(21, 207, 21);
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+     color: rgb(255, 255, 255);
+     transition: 0.3s ease;
+}
+
+nav li a:hover{
+    color: rgb(248, 36, 36);
+    transition: 0.3s ease;
+}
+
+.btn-one{
+    margin-right: 20px;
+    font-size: 23px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.btn-one:hover{
+    color: red;
+    background-color: black;
+    transition: 0.3s ease;
+    transform: scale(1) translateY(7px);
+}
+
+.container{
+    color: white;
+    text-align: center;
+    align-items: center;
+    margin-top: 13%;
+}
+
+.container h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+}
+
+.container h1:hover{
+    transform: scale(1) translateY(10px);
+    transition: 0.3s ease;
+    color: rgb(21, 207, 21);
+}
+
+.container p{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: red;
+    text-shadow: 20px 2px 4px rgba(24, 21, 21, 0.5), -2px -2px 4px rgba(255, 255, 255, 0.5);
+}
+
+.btn-two{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.btn-two:hover{
+    background-color: rgb(21, 207, 21);
+    color: rgb(255, 0, 0);
+    transform: scale(1) translateY(8px);
+    transition: 0.3s ease;
+
+}
+
+.fa-brands{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.icon{
+    color: white;
+}
+
+.icon #fb{
+    font-size: 30px;
+    color: rgb(38, 123, 226);
+    background: #fff;
+    transition: 0.3s ease;
+    border-radius: 4px;
+}
+
+.icon #fb:hover{
+    transform: scale(1.5) translateY(10px);
+    transition: 0.3s ease;
+}
+
+.icon #ins{
+    font-size: 30px;
+    color: #fd5949;
+    background: #fff;
+    transition: 0.3s ease;
+    border-radius: 4px;
+}
+
+.icon #ins:hover{
+    transform: scale(1.5) translateY(10px);
+    transition: 0.3s ease;
+} 
+
+.icon #link{
+    font-size: 30px;
+    color:  #12a4e7;;
+    background-color: #fff;
+    transition: 0.3s ease;
+    border-radius: 4px;
+}
+
+.icon #link:hover{
+    transform: scale(1.5) translateY(10px);
+    transition: 0.3s ease;
+}
+
+.icon #twi{
+    font-size: 30px;
+    color: #08ceff;
+    background-color: #ffffff;
+    transition: 0.3s ease;
+    border-radius: 4px;
+}
+
+.icon #twi:hover{
+    transform: scale(1.5) translateY(10px);
+    transition: 0.3s ease;
+}
