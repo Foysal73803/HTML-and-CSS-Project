@@ -1,0 +1,472 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav li{
+    display: inline-block;
+    padding: 23px;
+}
+
+nav li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+
+nav{
+    background: linear-gradient(rgb(136, 137, 221), rgb(146, 111, 82));
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.active{
+    color: rgb(255, 0, 0);
+}
+
+.logo{
+    margin-left: 18px;
+    text-decoration: none;
+    font-style: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: greenyellow;
+}
+
+.hero-image{
+    background-image: url(cover.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-image .hero-writing{
+    float: inline-end;
+    text-align: center;
+    margin-top: 40vh;
+    color: rgb(72, 224, 92);
+}
+
+.hero-writing h3{
+    color: rgb(197, 18, 27);
+    font-size: 28px;
+    margin-bottom: 5px;
+    text-shadow: 0 0 15px white;
+    transition: 0.3s ease-in;
+}
+
+.hero-writing h3:hover{
+    transform: rotateY(60deg);
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.hero-writing h1{
+    color: white;
+    transition: 0.3s ease-in;
+    text-shadow: 0 0 8px black;
+    margin-bottom: 10px;
+}
+
+.hero-writing h1:hover{
+    cursor: pointer;
+    transform: translate(5px, 5px);
+    transition: 0.3s ease;
+}
+
+.hero-writing p{
+    color: blue;
+    text-shadow: 0 0 10px rgb(42, 189, 61);
+    transition: 0.3s ease-in;
+}
+
+.hero-writing p:hover{
+    transform: translateY(5px);
+    transition: 0.3s ease;
+}
+
+.btn-one{
+    margin-top: 10px;
+    font-size: 25px;
+    background-color: white;
+    text-transform: uppercase;
+    transition: 0.3s ease-in;
+}
+
+.btn-one:hover{
+    font-size: 30px;
+    border-radius: 10px;
+    transform: scale(1.2);
+    transition: 0.2s ease;
+    border: red solid;
+    background-color: black;
+    color: white;
+}
+
+.search-box{
+    margin-right: 20px;
+}
+
+.container-two{
+    height: 89vh;
+    background-color: rgba(0, 0, 0, 0.918);
+}
+
+.container-image img{
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    float: right;
+    margin-right: 100px;
+    margin-top: 130px;
+    border: 1px solid white;
+    background-color: rgb(66, 61, 61);
+    border-radius: 10px;
+    box-shadow: 0 0 20px #fff;
+    transition: 0.3s ease-in;
+}
+
+.container-image img:hover{
+    border: 2px solid rgb(50, 209, 45);
+    background-color: rgb(187, 75, 94);
+    border-radius: 20px;
+    transform: rotate(2deg) scale(1.3);
+    transition: 0.3s ease;
+}
+
+.container-two-writing{
+    float: inline-start;
+    margin-left: 100px;
+    align-items: center;
+    margin-top: 20vh;
+    align-items: center;
+    color: white;
+}
+
+.container-two-writing h1{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.container-two-writing h3{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.container-two-writing h3 span{
+    color: rgb(235, 47, 14);
+}
+
+.container-two-writing p{
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    line-height: 1.3;
+}
+
+.btn-three{
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: rgb(233, 62, 113);
+    border: transparent;
+    transition: 0.3s ease-in;
+    box-shadow: 0 0 10px white;
+}
+
+.btn-three:hover{
+    background-color: white;
+    color: rgb(233, 62, 113);
+    border: 1px solid rgb(11, 253, 92);
+    transform: scale(1.2) rotate(2deg) translateY(3px);
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(236, 9, 122);
+    transition: 0.3s ease;
+}
+
+
+.search-box{
+    width: 240px;
+    background: white;
+    height: 42px;
+    padding: 5px;
+    border-radius: 15px;
+    margin-right: 20px;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0 0 10px #485991;
+}
+
+.search-text{
+    background: none;
+    outline: none;
+    border: none;
+    color: black;
+    line-height: 30px;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 1.2px;
+}
+
+.container-three-img{
+    background-image: url(3004.jpg);
+    height: 89vh;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.container-three-writing{
+    float: inline-end;
+    color: white;
+    text-align: center;
+    align-items: center;
+    margin-left: 200px;
+    margin-top: 150px;
+    font-size: 20px;
+}
+
+.container-three-writing h1{
+    margin-bottom: 10px;
+}
+
+.container-three-writing p{
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.button-style{
+    height: 40px;
+    width: 160px;
+    border: 2px solid white;
+    margin-left: 150px;
+    background-color: blue;
+    box-shadow: 0 0 10px rgb(182, 130, 130);
+    transition: 0.3s ease;
+}
+
+.button-style:hover{
+    transform: scale(1.2) rotate(2deg) translateY(3px);
+    transition: 0.3s ease;
+    background-color: rgb(233, 62, 113);
+    border: 2px solid seagreen;
+}
+
+.button-style h3{
+    font-size:30px;
+    text-shadow: 0 0 2px;
+    transition: 0.3s ease;
+}
+
+.button-style h3:hover{
+    transform: skewY(3deg);
+    transition: 0.3s ease;
+    color: black;
+    cursor: pointer;
+}
+
+.communicaton-it{
+    background-image: url(R.jpg);
+    width: 50%;
+    float: right;
+    height: 89vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.container-four{
+    height: 89vh;
+    background-color: #303546;
+}
+
+.writing-box{
+    display: inline-block;
+}
+
+.writing-box-first{
+    display: inline-block;
+}
+
+.writing-box-sec{
+    display: inline-block;
+}
+
+.writing-box-one{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 80px;
+}
+
+.writing-box-one .fas{
+    color: rgb(0, 162, 255);
+    text-shadow: 0 0 15px skyblue;
+    font-size: 30px;
+    margin-left: 140px;
+}
+
+.writing-box-one h2{
+    color: white;
+    margin-left: 115px;
+    font-weight: bold;
+    text-shadow: 0 0 7px greenyellow;
+    margin-top: 10px;
+    transition: 0.3s ease-in;
+}
+
+.writing-box-one h2:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
+
+.writing-box-one p{
+    margin-top: 10px;
+    color: rgb(223, 208, 186);
+    line-height: 1.3;
+    transition: 0.3s ease-in;
+}
+
+.writing-box-one p:hover{
+    color: white;
+    transition: 0.3s ease;
+}
+
+.container-five{
+    height: 90vh;
+    background-color: #26272e;
+}
+
+.container-five-writing{
+    float: inline-start;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+.container-five-writing h1{
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+
+.container-five-writing p{
+    letter-spacing: 1.5px;
+    line-height: 1.2;
+}
+
+.container-five-box{
+    float: inline-start;
+    height: 410px;
+    width: 300px;
+    border: 2px solid rgb(36, 79, 219);
+    margin-top: 20px;
+    border-radius: 7px;
+    margin-left: 500px;
+    background-color: rgb(76, 100, 100);
+}
+
+.month-sectioin{
+    margin-top: 5px;
+    margin-left: 7px;
+}
+
+.month-sectioin i{
+    font-size: 22px;
+    color: rgb(243, 153, 44);
+}
+
+.first-raw{
+    border: 1px solid;
+    margin-top: 10px;
+    color: wheat;
+    margin-left: 8px;
+    margin-right: 12px;
+}
+
+.first-raw-writing{
+    margin-top: 14px;
+    margin-left: 10px;
+    color: white;
+}
+
+.first-raw-writing h3{
+    margin-left: 5px;
+}
+
+.second-raw{
+    border: 1px solid;
+    margin-top: 10px;
+    color: wheat;
+    margin-right: 12px;
+    margin-top: 14px;
+}
+
+.three-raw{
+    margin-top: 15px;
+    margin-left: 12px;
+    color: white;
+}
+
+.three-raw i{
+    font-size: 18px;
+    color: greenyellow;
+}
+
+.three-raw-break{
+    border: 1px solid;
+    color: wheat;
+    margin-right: 12px;
+    margin-top: 14px;
+}
+
+.order-box{
+    height: 40px;
+    width: 150px;
+    border: 2px solid;
+    margin-top: 25px;
+    margin-left: 65px;
+    background-color: rgb(177, 151, 151);
+    cursor: pointer;
+}
+
+.order-writing {
+    margin-top: 7px;
+    margin-left: 12px;
+    text-decoration: none;
+    font-style: none;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+}
+
+.order-writing a{
+    color: white;
+    transition: 0.3s ease-in;
+    text-shadow: 0 0 5px ;
+}
+
+.order-writing a:hover{
+    color: rgb(148, 24, 24);
+    transform: translateY(3px);
+   transition: 0.3s ease;
+   text-shadow: 0 0 5px #1a2883;
+}
+
+.order-box:hover{
+    background-color: rgb(153, 204, 77);
+    border-radius: 7px;
+    transform: scale(1.1);
+    transition: 0.3s ease;
+}
