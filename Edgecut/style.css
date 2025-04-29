@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root{
+    --main-color: rgb(31, 156, 214);
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li{
+    display: inline-block;
+    padding: 15px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.navbar ul li a:hover{
+    color: var(--main-color);
+}
+
+.logo{
+    margin-left: 40px;
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.log{
+    margin-right: 42px;
+    cursor: pointer;
+}
+
+.log span {
+    text-transform: uppercase;
+}
+
+.log i{
+    font-size: 18px;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(rgb(245, 242, 242), rgb(209, 209, 188));
+    border-radius: 3px;
+}
+
+.container-one{
+    margin-top: 180px;
+    margin-left: 60px;
+    height: 70vh;
+}
+
+.container-one h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.container-one p{
+    font-size: 17px;
+    margin-bottom: 15px;
+    letter-spacing: 0.4px;
+    color: rgb(0, 0, 0);
+}
+
+.btn-one, .btn-two{
+    padding: 13px 25px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    animation: button-style 1s ease;
+}
+
+@keyframes button-style{
+    0%{
+        transform: translateX(100px);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+}
+
+.btn-one{
+    background-color: coral;
+    box-shadow: 0 0 4px coral;
+    transition: 0.2s ease-in-out;
+}
+
+.btn-one:hover{
+    scale: 1.1;
+    transform: translateY(-3px);
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.1s ease-in;
+}
+
+.btn-two{
+    margin-left: 5px;
+    background-color: cornflowerblue;
+    box-shadow: 0 0 4px cornflowerblue;
+    transition: 0.2s ease-in-out;
+}
+
+.btn-two:hover{
+    scale: 1.1;
+    transform: translateY(-3px);
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.1s ease-in;
+}
+
+.container-one img{
+    height: 55vh;
+    margin-left: 600px;
+    background-position: center;
+    background-size: cover;
+    margin-top: -300px;
+    animation: one-img 1s ease;
+}
+
+@keyframes one-img {
+    0%{
+        transform: translateY(-100px);
+    }
+    10%{
+        scale: 1.1;
+    }
+}
+
+.container-two{
+    margin-left: 60px;
+    height: 92vh;
+}
+
+.container-two p{
+    margin-bottom: 40px;
+}
+
+.container-two .tow-box-one img{
+    height: 40vh;
+}
+
+.container-two .tow-box-one h3{
+    margin-left: 50px;
+    margin-bottom: 4px;
+}
+
+.container-two .tow-box-one i{
+    margin-left: 40px;
+    color: cornflowerblue;
+    cursor: pointer;
+    border: 1px solid wheat;
+    height: 18px;
+    width: 69px;
+}
+
+.container-two .tow-box-one span{
+    margin-left: 50px;
+    font-weight: bold;
+    color: rgb(65, 223, 117);
+    text-transform: uppercase;
+} .container-two .tow-box-one a{
+    text-decoration: none;
+}
+
+.two-box-main .tow-box-one{
+    display: inline-block;
+    margin-left: 80px;
+}
+
+.two-box-main-two{
+    margin-top: 50px;
+}
+
+.one-box-one-lite{
+    margin-left: 70px;
+}
+
+#two-box-one-style{
+    animation: furnitures 1s ease;
+    transition: 0.2s ease-in;
+    margin-bottom: 5px;
+}@keyframes furnitures{
+    0%{
+        transform: translateY(-100px);
+    }
+    50%{
+        scale: 1.1;
+    }
+}#two-box-one-style:hover{
+    scale: 1.1;
+    transition: 0.2s ease;
+}
+
+.container-three{
+    height: 120vh;
+}
+
+.container-three .about-picture img{
+  margin-top: 300px;
+  height: 50vh;
+  margin-left: 40px;
+  box-shadow: rgba(0, 0, 0, 1);
+}
+
+.container-three .about{
+    margin-left: 120vh;
+    transform: translateY(-40vh);
+}
+
+.about h1{
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.about p{
+    line-height: 1.1;
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.about .btn-three{
+    padding: 10px 20px;
+    border: none;
+    background-color: darkcyan;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+
+.about .btn-three:hover{
+    background-color: white;
+    color: darkcyan;
+    border: solid darkcyan 1px;
+    scale: 1.1;
+    transition: 0.1s ease-in;
+}
